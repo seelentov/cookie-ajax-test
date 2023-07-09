@@ -1,6 +1,7 @@
-@import 'home.scss';
-@import 'footer.scss';
-@import 'header.scss';
+@import 'modules/home.scss';
+@import 'modules/footer.scss';
+@import 'modules/header.scss';
+
 @import 'media.scss';
 @import 'mobile.scss';
 
@@ -14,9 +15,9 @@
 
 //=======================================================================
 .container{
-  max-width: 1100px;
+  max-width: 1290px;
   margin: 0 auto;
-  @media(max-width:1200px){
+  @media(max-width:1290px){
     max-width: 970px;
   }
   @media(max-width:992px){
@@ -54,11 +55,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(105, 105, 105); 
+  background: #FED16E;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(54, 54, 54); 
+  background: #74499B; 
 }
 
 //=======================================================================
@@ -74,20 +75,22 @@
 }
 :focus,
 :active {
-	// outline: none;
+outline: none;
 }
 a:focus,
 a:active {
-	// outline: none;
+outline: none;
 }
 html,
 body {
 	height: 100%;
 }
 body {
-	line-height: 1;
-	font-family: sans-serif;
-	font-size: 16px;
+	line-height: 28.8px;
+	font-family: 'Montserrat';
+	font-size: 18px;
+  font-weight: 400;
+  color: #010717;
 	//text-rendering: optimizeLegibility;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -98,8 +101,10 @@ body {
 input,
 button,
 textarea {
-	font-family: sans-serif;
-	font-size: inherit;
+	line-height: 28.8px;
+	font-family: 'Montserrat';
+	font-size: 18px;
+  font-weight: 400;
 }
 button {
 	cursor: pointer;
@@ -107,14 +112,16 @@ button {
 	background-color: inherit;
 }
 a {
-	color: inherit;
+	color: #010717;
 }
 a:link,
 a:visited {
 	text-decoration: none;
+  color: #010717;
 }
 a:hover {
 	text-decoration: none;
+  color: #010717;
 }
 ul li {
 	list-style: none;
