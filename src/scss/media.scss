@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+// HEADER
+.header{
+  &__nav{
+    column-gap: 14px;
+  }
+  &__catalog{
+    margin-left: 27px;
+    width: 198px;
+  }
+  &__search{
+    margin-left: -92px;
+    padding: 0 12px 0 101px;
+    width: 489px;
+  }
+  &__menu{
+    row-gap: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 391px;
+  }
+  &__bottom{
+    display: flex;
+    align-items:center;
+
+  }
+}
+}
+@media (max-width: 1023px) {
+  .header{
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__top{
+      display: none;
+    }
+    &__menu{
+      display: none !important;
+    }
+  }
+  
+}
