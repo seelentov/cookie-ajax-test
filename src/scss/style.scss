@@ -1,6 +1,11 @@
 @import 'modules/home.scss';
 @import 'modules/footer.scss';
 @import 'modules/header.scss';
+@import 'modules/header-mobile.scss';
+@import 'modules/banner.scss';
+@import 'modules/moving-text.scss';
+@import 'modules/promotion.scss';
+@import 'modules/categories.scss';
 
 @import 'media.scss';
 @import 'mobile.scss';
@@ -12,6 +17,7 @@
 @import 'library/checkbox.scss';
 @import 'library/inputs.scss';
 @import 'library/radios.scss';
+@import 'library/items.scss';
 
 //=======================================================================
 .container{
@@ -24,7 +30,7 @@
     max-width: 750px;
   }
   @media(max-width:767px){
-    max-width: none !important;
+    max-width: 320px !important;
   }
 }
 //=======================================================================

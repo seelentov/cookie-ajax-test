@@ -1,0 +1,30 @@
+.moving-text {
+  // .moving-text__top
+  margin-bottom: 82px;
+  &__top {
+    animation: marquee 10s linear infinite;
+  }
+  
+  // .moving-text__line
+  
+  &__line {
+    width: 200%;
+    display: flex;
+    position: relative;
+    
+    & img{
+      width: 100%;
+    }
+  }
+  
+  // .moving-text__bottom
+  
+  &__bottom {
+    animation: marquee 10s linear infinite reverse;
+  }
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -200%; }
+  }

@@ -25,8 +25,13 @@
 
   }
 }
+//PROMOTION
+.promotion-item-small__text{
+  font-size: 15px;
+}
 }
 @media (max-width: 1023px) {
+  //HEADER
   .header{
     height: 144px;
     display: flex;
@@ -39,5 +44,120 @@
       display: none !important;
     }
   }
-  
-}
+  //BANNER
+  .banner{
+    padding-bottom: 366px;
+    &__container{
+      justify-content: center;
+    }
+    &__img{
+      display:none !important;
+    }
+    &__items{
+      transform: translate(0px, 302px) !important;
+    }
+    &__bg{
+      padding: 0;
+    }
+    }
+    //MOVING-TEXT
+    .moving-text{
+      transform: scale(2) !important;
+    }
+    //PROMOTION
+    .promotion {
+
+      // .promotion__container
+      
+      &__container {
+        flex-direction: column !important;
+        row-gap: 10px;
+      }
+      
+      // .promotion__item
+      
+      &__item {
+        width: 100%;
+      }
+      
+      // .promotion__item-0
+      
+      &__item-0 {}
+      
+      // .promotion__item-small
+      
+      &__item-small {
+        height: 99px;
+      }
+      
+      // .promotion__item-1
+      
+      &__item-1 {}
+      
+      // .promotion__item-big
+      
+      &__item-big {
+        height: 370px;
+      }
+      
+      // .promotion__item-2
+      
+      &__item-2 {}
+      
+      // .promotion__item-3
+      
+      &__item-3 {}
+      }
+      .container {
+      }
+      .promotion-item-small {
+      
+      // .promotion-item-small__text
+      
+      &__text {
+        align-items:center;
+        justify-content: start;
+        padding: 0 0 0 20px;
+        height: 100%;
+        flex-direction: row;
+        column-gap: 20px;
+      }
+      
+      // .promotion-item-small__number
+      
+      &__number {}
+      
+      // .promotion-item-small__header
+      
+      &__header {}
+      
+      // .promotion-item-small__image
+      
+      &__image {
+        display: none;
+      }
+      }
+      .text-big {
+      }
+      .promotion-item-big {
+      
+      // .promotion-item-big__text
+      
+      &__text {}
+      
+      // .promotion-item-big__header
+      
+      &__header {}
+      
+      // .promotion-item-big__btn
+      
+      &__btn {}
+      
+      // .promotion-item-big__image
+      
+      &__image {}
+      }
+      .btn {
+      }
+      
+  }
