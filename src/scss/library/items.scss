@@ -1,4 +1,8 @@
+  //PRODICT ITEM
 .product-item{
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
   width: 300px;
   height: 393px;
   border-radius:10px;
@@ -8,9 +12,128 @@
     text-align: left;
   }
   &__name{
+    font-size: 14px;
+    line-height: 170%;
+    margin-top: 32px;
+    height: 76px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    & p{
+      margin: 0;
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  &__promo {
+    transform: translate(6px, 6px);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    height: 28px;
+    width: 79px;
+    font-size: 13px;
+    background: #69C0AE;
+    color: white;
+}
+  
+  // .product-item__img
+  
+  &__img {height: 180px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;}
+  
+  // .product-item__cost
+  
+  &__cost {
+    margin-top: 20px;
+    display: flex;
+    align-items:center;
+    column-gap: 14px;
+  }
+  
+  // .product-item__price
+  
+  &__price {
+    font-size: 22px;
     font-weight: 600;
+
+  }
+  
+  // .product-item__oldprice
+  
+  &__oldprice {
+    color:#C9C9C9;
+    text-decoration: line-through;
+    font-size: 13px;
+  }
+  
+  // .product-item__buybutton
+  
+  &__buybutton {
+    display: flex;
+    background: white;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(217px, 316px);
+    position: absolute;
+    transition: all .2s ease-in;
+    fill:black !important;
+    stroke:black!important;
+    &:hover{
+      fill:white !important;
+      stroke:white !important;
+      background:#DB0032;
+    }
   }
 }
+
+  .product-img {
+  // .product-img__image
+  
+  &__image {
+    min-width: 100%;
+  }
+  
+  // .product-img__points
+  
+  &__points {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap:4px;
+  }
+  }
+  .points{
+    &__item{
+    border-radius:5px;
+    width: 10px;
+    height:2px;
+    background: #E8E8E8;
+    transition: all .3s ease-in;
+    &:hover{
+      background: #25262C;
+    }
+  }
+  }
+
+  .buybutton {
+  // .buybutton__ico
+  &__ico {}
+  }
+
+
+
+  //CATALOG ITEM
 .catalog-item{
   width:286px;
   height: 175px;
