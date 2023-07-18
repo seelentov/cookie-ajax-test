@@ -33,6 +33,7 @@
   // .categories__items
   
   &__items {
+    padding: 10px;
     overflow-y: hidden;
     overflow-x:scroll;
     -ms-overflow-style: none;
@@ -44,7 +45,7 @@
     flex-direction: column;
     gap: 30px;
     flex-wrap: wrap;
-    height: 603px;
+    height: 605px;
     width: 100%;
   }
   

@@ -1,5 +1,12 @@
 //===================================================================================
 .btn {
+transition: all .2s ease-in;
+  &:hover{
+    background:#74001b
+  }
+  &:active{
+    background:#000000;
+  }
 width:292px;
 height: 43px;
 font-weight: bold;
@@ -14,6 +21,13 @@ border-radius:55.69px;
 }
 //===================================================================================
 .btn-arr{
+  &:hover{
+    background:#FED16E;
+  }
+  &:active{
+    background:#000000;
+  }
+  transition: all 0.2s ease-in;
   width: 40px;
   height: 40px;
   display: flex;

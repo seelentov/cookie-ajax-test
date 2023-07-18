@@ -34,6 +34,7 @@
   // .popular__items
   
   &__items {
+    padding: 10px;
     min-width: 0;
     overflow-y: hidden;
     overflow-x:scroll;
@@ -99,4 +100,12 @@
   
   &__img {}
   }
-  
+
+  a.popular__item{
+    
+  }
+  a.popular__item{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+  }
