@@ -314,7 +314,7 @@
 }
 .categories__container {
   max-width: none !important;
-  margin-left: 315px !important;
+  margin-left: 150px !important;
   gap: 34px;
   display: flex;
 }
@@ -361,7 +361,7 @@
 }
 .popular__container {
   max-width: none !important;
-  margin-left: 315px !important;
+  margin-left: 150px !important;
   gap: 34px;
   display: flex;
 }
@@ -389,6 +389,7 @@
   row-gap: 21px;
 }
 .popular__items {
+  min-width: 0;
   overflow-y: hidden;
   overflow-x: scroll;
   -ms-overflow-style: none;
