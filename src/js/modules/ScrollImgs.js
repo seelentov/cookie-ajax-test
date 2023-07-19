@@ -17,7 +17,6 @@ export const ScrollImgs = (item) => {
     lines[i].addEventListener('mouseover', ()=>{
       lines[0].children[0].style.background = '#e8e8e8'
       lines[i].children[0].style.background = '#25262C'
-      console.log()
       scrollToImg(lines[i].getAttribute('index'))
       })
       lines[i].addEventListener('mouseout', ()=>{

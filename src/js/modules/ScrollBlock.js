@@ -27,6 +27,5 @@ export const ScrollBlock = (block, scrollWidth, arrsBlock) => {
   });
   arrsBlock[0].style.transform = 'scale(1)'
 
-  console.log(block.scrollWidth, block.scrollLeft+ block.offsetWidth)
 });
 }

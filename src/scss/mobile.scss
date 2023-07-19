@@ -27,6 +27,13 @@
     height: 134px !important;
   }
 //HEADER
+.header-catalog{
+  &__items{
+    width: 502px;
+    height: 490px;
+  }
+}
+
 .header{
   height: 144px;
   display: flex;
@@ -40,6 +47,11 @@
   }
 }
 //BANNER
+.banners{
+  &__bg{
+    height: 340px;
+  }
+}
 .banner{
   padding-bottom: 366px;
   &__container{
@@ -49,11 +61,10 @@
     display:none !important;
   }
   &__items{
+    margin-top: -200px;
     transform: translate(0px, 302px) !important;
   }
-  &__bg{
-    padding: 0;
-  }
+  
   }
   //MOVING-TEXT
   .moving-text{
@@ -201,6 +212,7 @@
   .banner{
     padding-bottom: 100px;
     &__items{
+      margin-top: -59px !important;
       transform: translate(0px, 83px) scale(0.58) !important;
     }
     &__arrs{

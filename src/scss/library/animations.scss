@@ -2,3 +2,98 @@
   0% { left: 0; }
   100% { left: -200%; }
 }
+
+.disabled {
+  display: none;
+}
+
+
+@keyframes bannerFade{
+  0%{
+    transform: translate(-33px, -64px);
+    opacity: 1;
+  }
+  100%{
+    transform: translate(-66px, -100px);
+    opacity: 0;
+  }
+}
+@keyframes bannerMoveUp{
+  0%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100%{
+    transform: translate(-33px, -28px);
+    opacity: 1;
+  }
+}
+@keyframes bannerMoveDown{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    transform: translate(0, -37px);
+    opacity: 1;
+  }
+}
+@keyframes bannerAppear{
+  0%{
+    transform: translate(33px, -10px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0, -38px);
+    opacity: 1;
+  }
+}
+
+@keyframes bannerOut{
+  0%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100%{
+    transform: translate(33px, 28px);
+    opacity: 0;
+  }
+}
+
+@keyframes bannerAppearTop{
+  0%{
+    
+    transform: translate(-66px, -100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(-33px, -64px);
+    opacity: 1;
+  }
+}
+
+.banner-top-out{
+  animation: bannerFade;
+  animation-duration: 0.3s;
+}
+.banner-middle-moveup{
+  animation: bannerMoveUp;
+  animation-duration: 0.3s;
+}
+.banner-bottom-appear{
+  animation: bannerAppear;
+  animation-duration: 0.3s;
+}
+
+
+.banner-top-appear{
+  animation: bannerAppearTop;
+  animation-duration: 0.3s;
+}
+.banner-middle-movedown{
+  animation: bannerMoveDown;
+  animation-duration: 0.3s;
+}
+.banner-bottom-out{
+  animation: bannerOut;
+  animation-duration: 0.3s;
+}
