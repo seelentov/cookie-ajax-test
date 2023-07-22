@@ -46,6 +46,7 @@
   // .banner__items
   
   &__items {
+    pointer-events: none;
     z-index: 2;
     position: relative;
     row-gap: 36px;
@@ -63,7 +64,9 @@
   
   // .banner__arrs
   
-  &__arrs {}
+  &__arrs {
+    pointer-events: all;
+  }
   
   // .banner__img
   
@@ -114,11 +117,12 @@
   // .banner-text__btn
   
   &__btn {
+    pointer-events: all;
     column-gap: 10px;
   }
   }
   .banner-arrs {
-  
+    
   // .banner-arrs__left
   
   &__left {}

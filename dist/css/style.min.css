@@ -293,6 +293,7 @@
   align-items: center;
 }
 .banner__items {
+  pointer-events: none;
   z-index: 2;
   position: relative;
   row-gap: 36px;
@@ -303,6 +304,9 @@
 }
 .banner__text {
   transition: all 0.2s ease-in;
+}
+.banner__arrs {
+  pointer-events: all;
 }
 .banner__img {
   width: 50%;
@@ -332,6 +336,7 @@
   margin-bottom: 28px;
 }
 .banner-text__btn {
+  pointer-events: all;
   column-gap: 10px;
 }
 

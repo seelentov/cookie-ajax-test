@@ -5,6 +5,7 @@ import {ScrollImgs} from './modules/ScrollImgs.js'
 import {CatalogButton} from './modules/CatalogButton.js'
 import {Appear} from './modules/Appear.js'
 import {BannerSwitch} from './modules/BannerSwitch.js'
+import {SwipingBlock} from './modules/SwipingBlock.js'
 
 isWebp();
 
@@ -21,3 +22,5 @@ CatalogButton(document.querySelector('.header__catalog'), document.querySelector
 Appear(document.querySelector('.phone__number-allnum'),document.querySelector('.phone__number'))
 
 BannerSwitch(document.querySelector('.banner'))
+
+SwipingBlock(document.querySelector('.banners__bg'))

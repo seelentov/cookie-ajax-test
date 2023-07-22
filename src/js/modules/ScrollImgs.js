@@ -1,26 +1,26 @@
 export const ScrollImgs = (item) => {
-  const lines = item.querySelectorAll('.points__hover')
-  const images = item.querySelector('.product-item__img')
+  const lines = item.querySelectorAll('.points__hover');
+  const images = item.querySelector('.product-item__img');
+  const firstLineChild = lines[0].children[0];
 
-  lines[0].children[0].style.background = '#25262C'
+  firstLineChild.style.background = '#25262C';
 
   const scrollToImg = (numberItem) => {
     images.scrollTo({
       left: images.clientWidth * numberItem,
-      behavior:'smooth'
-    })
-  }
-  
-  for(let i = 0;i<lines.length;i++){
+      behavior: 'smooth'
+    });
+  };
 
-    lines[i].setAttribute('index', i)
-    lines[i].addEventListener('mouseover', ()=>{
-      lines[0].children[0].style.background = '#e8e8e8'
-      lines[i].children[0].style.background = '#25262C'
-      scrollToImg(lines[i].getAttribute('index'))
-      })
-      lines[i].addEventListener('mouseout', ()=>{
-        lines[i].children[0].style.background = '#e8e8e8'
-        })
-  }
-}
+  lines.forEach((line, index) => {
+    line.setAttribute('index', index);
+    line.addEventListener('mouseover', () => {
+      firstLineChild.style.background = '#e8e8e8';
+      line.children[0].style.background = '#25262C';
+      scrollToImg(line.getAttribute('index'));
+    });
+    line.addEventListener('mouseout', () => {
+      line.children[0].style.background = '#e8e8e8';
+    });
+  });
+};
