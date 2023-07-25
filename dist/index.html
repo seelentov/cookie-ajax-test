@@ -292,7 +292,6 @@
       </div>
       </div>
     </div>
-  </div>
   <div class="header-mobile">
     <div class="header-mobil__top">
       
@@ -315,6 +314,39 @@
       <strong>15000 ₽</strong>
     </div>
   </div>
+  <div class="menu-burger">
+    <div class="menu-burger__top">
+      <div class="menu-burger__logo">
+        <img class='logo_img'src="img/logo.svg" alt="Yoliba">
+      </div>
+      <div class="menu-burger__close-button">
+        <button>
+          X
+        </button>
+      </div>
+    </div>
+    <div class="menu-burger__links">
+    <a href="" class="menu-burger__link">Нанесение</a>
+    <a href="" class="menu-burger__link">Отзывы</a>
+    <a href="" class="menu-burger__link">Бренды</a>
+    <a href="" class="menu-burger__link">О компании</a>
+    <a href="" class="menu-burger__link">Оплата</a>
+    <a href="" class="menu-burger__link">Доставка</a>
+    <a href="" class="menu-burger__link">Для дилеров</a>
+    <a href="" class="menu-burger__link">Контакты</a>
+    <a href="" class="menu-burger__link">FAQ</a>
+    <a href="" class="menu-burger__link">Каталог</a>
+    <a href="" class="menu-burger__link">Запросить счет</a>
+    <a href="" class="menu-burger__link">Избранное</a>
+    <a href="" class="menu-burger__link">Корзина</a>
+    <a href="" class="menu-burger__link">Личный кабинет</a>
+  </div>
+  <div class="menu-burger__bottom">
+    <div class="phone__number-number"><a href="tel:+73512420306">+7 351 242-03-06</a></div>
+    <div class="phone__number-number"><a href="tel:+73512420306">+7 351 242-03-06</a></div>
+    <div class="phone__number-number"><a href="tel:+73512420306">+7 351 242-03-06</a></div>
+  </div>
+    </div>
 </header>
 <div class="wrapper">
 <main>
@@ -398,55 +430,68 @@
 </div>
   <section class="promotion">
   <div class="promotion__container container">
-    <article class="promotion__item promotion__item-0 promotion__item-small">
-      <div class="promotion-item-small__text">
-        <div class="promotion-item-small__number text-big">
+    <article class="promotion__item promotion-item-small" style="background:#FED16D">
+      <div class="promotion-item__text" style='color:inherit'>
+        <div class="promotion-item__number text-big">
           01
         </div>
-        <div class="promotion-item-small__header">
+        <div class="promotion-item__header">
           Быстрая поставка
         </div>
+        <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
+          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+        </button>
       </div>
-      <div class="promotion-item-small__image">
+      <div class="promotion-item__img">
 
       </div>
     </article>
-    <article class="promotion__item promotion__item-1 promotion__item-big">
-      <div class="promotion-item-big__text">
-        <div class="promotion-item-big__header text-big">
+    <article class="promotion__item promotion-item-big" style="background:inherit">
+      <div class="promotion-item__text" style='color:inherit'>
+        <div class="promotion-item__number text-big" >
+          02
+        </div>
+        <div class="promotion-item__header">
           Светящиеся шары
         </div>
-        <button class="promotion-item-big__btn btn">
-          <img src="img/icon-arrow-right.svg" alt="">
+        <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
+          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
         </button>
       </div>
-      <div class="promotion-item-big__image">
-        <img src="" alt="">
+      <div class="promotion-item__img">
+        <img src="img/promotion_banners/banner-image-2.png" alt="">
       </div>
     </article>
-    <article class="promotion__item promotion__item-2 promotion__item-small">
-      <div class="promotion-item-small__text">
-        <div class="promotion-item-small__number text-big">
+    <article class="promotion__item promotion-item-small" style="background:inherit">
+      <div class="promotion-item__text" style='color:inherit'>
+        <div class="promotion-item__number text-big">
           03
         </div>
-        <div class="promotion-item-small__header">
+        <div class="promotion-item__header">
           Детские подарки
         </div>
+        <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
+          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+        </button>
       </div>
-      <div class="promotion-item-small__image">
-        <img src="img/banner-image-3.png" alt="">
+      <div class="promotion-item__img">
+        <img src="img/promotion_banners/banner-image-3.svg" alt="">
       </div>
     </article>
-    <article class="promotion__item promotion__item-3 promotion__item-small">
-      <div class="promotion-item-small__text">
-        <div class="promotion-item-small__number text-big">
+    <article class="promotion__item promotion-item-small" style="background:#74499B">
+      <div class="promotion-item__text" style='color:white'>
+        <div class="promotion-item__number text-big">
           04
         </div>
-        <div class="promotion-item-small__header">
+        <div class="promotion-item__header">
           Ежедневники на 2023 год
         </div>
+        <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
+          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+        </button>
       </div>
-      <div class="promotion-item-small__image">
+      <div class="promotion-item__img">
+
       </div>
     </article>
   </div>
@@ -1125,6 +1170,330 @@
 
 
 
+  <section class="services">
+  <div class="services__container container">
+    <h2 class="services__header text-big">Наши услуги</h2>
+    <div class="services__items">
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Полноцветная УФ-печать логотипов на сувенирах</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Горячее тиснение и тиснение фольгой на сувенирах и подарках</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Лазерная гравировка сувениров</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Тампопечать</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Шелкография</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Сублимация</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+      <a href='#'><article class="service__item">
+        <div class="service-item__name text-middle">Полноцветная УФ-печать логотипов на сувенирах</div>
+        <svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 25L25 1M25 1V25M25 1H1.54545" stroke-width="2"/>
+          </svg>
+        <div class="service-item__hover">
+          <div class="service-item__img">
+            <img src="img/service-1.png">
+          </div>
+          <div class="service-item__desc">
+          <div class="service-item__price">
+              От <span>15 ₽</span>
+          </div>
+          <div class="service-item__more">
+                Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+          </div>
+        </div>
+        </div>
+      </article></a>
+    </div>
+  </div>
+</section>
+  <section class="articles">
+  <div class="articles__container">
+    <div class="articles__text">
+      <h2 class="articles-text__header text-big">
+        Последние<br>новости и статьи
+      </h2>
+      <div class="articles-text__desc">
+        Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
+      </div>
+      <div class="articles-text__arrs btn-arrs">
+        <div class="articles-arrs__left btn-arr">
+          <img src="img/icon-redarr.svg" alt="<">
+        </div>
+        <div class="articles-arrs__right btn-arr">
+          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+        </div>
+      </div>
+    </div>
+      <div class="articles__items">
+        <a href="">
+          <article class="articles__item article-item">
+            <div class="article-item__img">
+              <img src="img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
+            </div>
+            <div class="article-item__data text-min">
+              08 апреля 2022
+            </div>
+            <div class="article-item__title"><p>
+              Оригинальные идеи для корпоративных подарков в 2023 году
+            </p></div>
+          </article>
+        </a>
+        <a href="">
+          <article class="articles__item article-item">
+            <div class="article-item__img">
+              <img src="img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
+            </div>
+            <div class="article-item__data text-min">
+              08 апреля 2022
+            </div>
+            <div class="article-item__title"><p>
+              Какие корпоративные подарки лучше преподнести клиентам, партнерам и сотрудникам?
+            </p></div>
+          </article>
+        </a>
+        <a href="">
+          <article class="articles__item article-item">
+            <div class="article-item__img">
+              <img src="img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
+            </div>
+            <div class="article-item__data text-min">
+              08 апреля 2022
+            </div>
+            <div class="article-item__title"><p>
+              Оригинальные идеи для корпоративных подарков в 2023 году
+            </p></div>
+          </article>
+        </a>
+        <a href="">
+          <article class="articles__item article-item">
+            <div class="article-item__img">
+              <img src="img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
+            </div>
+            <div class="article-item__data text-min">
+              08 апреля 2022
+            </div>
+            <div class="article-item__title"><p>
+              Какие корпоративные подарки лучше преподнести клиентам, партнерам и сотрудникам?
+            </p></div>
+          </article>
+        </a>
+        <a href="">
+          <article class="articles__item article-item">
+            <div class="article-item__img">
+              <img src="img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
+            </div>
+            <div class="article-item__data text-min">
+              08 апреля 2022
+            </div>
+            <div class="article-item__title"><p>
+              Оригинальные идеи для корпоративных подарков в 2023 году
+            </p></div>
+          </article>
+        </a>
+        <a href="">
+          <article class="articles__item article-item">
+            <div class="article-item__img">
+              <img src="img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
+            </div>
+            <div class="article-item__data text-min">
+              08 апреля 2022
+            </div>
+            <div class="article-item__title"><p>
+              Какие корпоративные подарки лучше преподнести клиентам, партнерам и сотрудникам?
+            </p></div>
+          </article>
+        </a>
+      </div>
+      <div class="articles-text__arrs-mobile btn-arrs" style="display:none;">
+        <div class="articles-arrs-mobile__left btn-arr">
+          <img src="img/icon-redarr.svg" alt="<">
+        </div>
+        <div class="articles-arrs-mobile__right btn-arr">
+          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+        </div>
+      </div>
+  </div>
+</section>
+  <section class="events">
+  <div class="events__container container">
+    <div class="events__selector">
+      <div class="events-selector__item events-selector__item__active" index="0">
+        Корпоративные подарки и сувениры 
+      </div>
+      <div class="events-selector__item" index="1">
+        Корпоративные подарки и сувениры 
+      </div>
+      <div class="events-selector__item" index="2">
+        Корпоративные подарки и сувениры 
+      </div>
+      <div class="events-selector__item" index="3">
+        Корпоративные подарки и сувениры 
+      </div>
+    </div>
+    <div class="events__banners">
+      <article class="events-banner__item" index="0" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+        <div class="events-banner__content">
+          <div class="events-banner__header text-big">
+            Корпоративные подарки и сувениры от компании «Эклектика»
+          </div>
+          <div class="events-banner__desc"><p>
+            Более 20 лет компания «Эклектика» создаёт для вас эксклюзивные бизнес-подарки, стильный мерч и сувениры со смыслом. Собственное дизайн-бюро разрабатывает креативные решения для брендирования с учётом целевой аудитории, повода, концепции продвижения и бюджета. Впечатляющий каталог включает подарки на календарные и профессиональные праздники, для корпоративов и промоакций, для взрослых и детей. Многоступенчатый контроль качества и точное соответствие согласованному образцу гарантируют, что вы останетесь довольны готовой продукцией.
+Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
+          </p></div>
+          <button class="events-banner__btn btn">
+            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          </button>
+        </div>
+      </article>
+      <article class="events-banner__item" index="1" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+        <div class="events-banner__content">
+          <div class="events-banner__header text-big">
+            Корпоративные подарки и сувениры от компании «Эклектика»
+          </div>
+          <div class="events-banner__desc"><p>
+            Более 20 лет компания «Эклектика» создаёт для вас эксклюзивные бизнес-подарки, стильный мерч и сувениры со смыслом. Собственное дизайн-бюро разрабатывает креативные решения для брендирования с учётом целевой аудитории, повода, концепции продвижения и бюджета. Впечатляющий каталог включает подарки на календарные и профессиональные праздники, для корпоративов и промоакций, для взрослых и детей. Многоступенчатый контроль качества и точное соответствие согласованному образцу гарантируют, что вы останетесь довольны готовой продукцией.
+Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
+          </p></div>
+          <button class="events-banner__btn btn">
+            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          </button>
+        </div>
+      </article>
+      <article class="events-banner__item" index="2" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+        <div class="events-banner__content">
+          <div class="events-banner__header text-big">
+            Корпоративные подарки и сувениры от компании «Эклектика»
+          </div>
+          <div class="events-banner__desc"><p>
+            Более 20 лет компания «Эклектика» создаёт для вас эксклюзивные бизнес-подарки, стильный мерч и сувениры со смыслом. Собственное дизайн-бюро разрабатывает креативные решения для брендирования с учётом целевой аудитории, повода, концепции продвижения и бюджета. Впечатляющий каталог включает подарки на календарные и профессиональные праздники, для корпоративов и промоакций, для взрослых и детей. Многоступенчатый контроль качества и точное соответствие согласованному образцу гарантируют, что вы останетесь довольны готовой продукцией.
+Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
+          </p></div>
+          <button class="events-banner__btn btn">
+            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          </button>
+        </div>
+      </article>
+      <article class="events-banner__item" index="3" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+        <div class="events-banner__content">
+          <div class="events-banner__header text-big">
+            Корпоративные подарки и сувениры от компании «Эклектика»
+          </div>
+          <div class="events-banner__desc"><p>
+            Более 20 лет компания «Эклектика» создаёт для вас эксклюзивные бизнес-подарки, стильный мерч и сувениры со смыслом. Собственное дизайн-бюро разрабатывает креативные решения для брендирования с учётом целевой аудитории, повода, концепции продвижения и бюджета. Впечатляющий каталог включает подарки на календарные и профессиональные праздники, для корпоративов и промоакций, для взрослых и детей. Многоступенчатый контроль качества и точное соответствие согласованному образцу гарантируют, что вы останетесь довольны готовой продукцией.
+Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
+          </p></div>
+          <button class="events-banner__btn btn">
+            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          </button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
   
 </main>
 </div>

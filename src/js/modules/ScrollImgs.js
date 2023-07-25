@@ -16,11 +16,12 @@ export const ScrollImgs = (item) => {
     line.setAttribute('index', index);
     line.addEventListener('mouseover', () => {
       firstLineChild.style.background = '#e8e8e8';
-      line.children[0].style.background = '#25262C';
+      
       scrollToImg(line.getAttribute('index'));
-    });
-    line.addEventListener('mouseout', () => {
-      line.children[0].style.background = '#e8e8e8';
+      lines.forEach(line=>{
+        line.children[0].style.background = '#e8e8e8'
+      })
+      line.children[0].style.background = '#25262C';
     });
   });
 };

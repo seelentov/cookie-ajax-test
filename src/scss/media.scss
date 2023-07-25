@@ -42,8 +42,19 @@
   }
 }
 //PROMOTION
-.promotion-item-small__text{
-  font-size: 15px;
+.promotion-item-big{
+  width: 368px !important;
 }
+//EVENTS
+.events-selector {
+  
+  // .events-selector__item
+  
+  &__item {
+    padding-bottom: 20px;
+    font-size: 13px;
+    }
+  }
 }
+
 

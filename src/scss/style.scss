@@ -1,12 +1,15 @@
-@import 'modules/home.scss';
-@import 'modules/footer.scss';
-@import 'modules/header.scss';
-@import 'modules/header-mobile.scss';
-@import 'modules/banner.scss';
-@import 'modules/moving-text.scss';
-@import 'modules/promotion.scss';
-@import 'modules/categories.scss';
-@import 'modules/popular.scss';
+@import 'modules/__home.scss';
+@import 'modules/__footer.scss';
+@import 'modules/__header.scss';
+@import 'modules/__header-mobile.scss';
+@import 'modules/__banner.scss';
+@import 'modules/__moving-text.scss';
+@import 'modules/__promotion.scss';
+@import 'modules/__categories.scss';
+@import 'modules/__services.scss';
+@import 'modules/__popular.scss';
+@import 'modules/__articles.scss';
+@import 'modules/__events.scss';
 
 
 @import 'media.scss';

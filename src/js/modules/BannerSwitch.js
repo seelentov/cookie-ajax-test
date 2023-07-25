@@ -1,6 +1,5 @@
 export const BannerSwitch = (banner) => {
   const arrs = banner.querySelector('.banner__arrs').children;
-  const bgBlock = banner.querySelector('.banners__bg');
   const textBlock = banner.querySelectorAll('.banner__text');
   const bannerQuads = banner.querySelectorAll('.banner-items__quad');
   const bannerImgBlock = banner.querySelector('.banners__bg');
@@ -90,18 +89,13 @@ export const BannerSwitch = (banner) => {
 
   arrCheck();
 
-  const handleClick = (move) => {
-    if (index + move < 0 || index + move > blocksCount || proc === 1) return;
-    proc = 1;
+  var handleClick = (move) => {
+    if (index + move < 0 || index + move > blocksCount) return;
 
     switchText(move);
     textItemAnim(move);
     switchImg(index);
     arrCheck();
-
-    setTimeout(() => {
-      proc = 0;
-    }, 750);
   };
 
   arrs[0].addEventListener('click', () => {
@@ -111,4 +105,13 @@ export const BannerSwitch = (banner) => {
   arrs[1].addEventListener('click', () => {
     handleClick(1);
   });
-};
+
+  let posStart;
+  bannerImgBlock.addEventListener('mousedown',()=>{
+    posStart = bannerImgBlock.scrollLeft
+  })
+  bannerImgBlock.addEventListener('mouseup',()=>{
+    if (posStart > bannerImgBlock.scrollLeft && Math.abs(posStart - bannerImgBlock.scrollLeft) > 10) handleClick(-1)
+    if (posStart < bannerImgBlock.scrollLeft && Math.abs(posStart - bannerImgBlock.scrollLeft) > 10) handleClick(1)
+  })
+}
