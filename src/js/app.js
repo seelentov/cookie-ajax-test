@@ -41,3 +41,5 @@ swipingBlock(document.querySelector('.popular__items'))
 swipingBlock(document.querySelector('.categories__items'))
 swipingBlock(document.querySelector('.articles__items'))
 swipingBlock(document.querySelector('.brands__items'))
+
+Appear(document.querySelector('.footer-logo__time-allnum'),document.querySelector('.phone-block__phone'))

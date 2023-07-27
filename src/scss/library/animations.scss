@@ -97,3 +97,22 @@
   animation: bannerOut;
   animation-duration: 0.3s;
 }
+
+
+@keyframes bgScrollUp{
+  0%{
+    background-position: right 100%;
+  }
+  100%{
+    background-position: right 0%;
+  }
+}
+
+@keyframes bgScrollRight{
+  0%{
+    background-position: 100% top;
+  }
+  100%{
+    background-position: -7% top;
+  }
+}
