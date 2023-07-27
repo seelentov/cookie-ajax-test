@@ -23,6 +23,9 @@ ScrollBlock(document.querySelector('.categories__items'), document.querySelector
 ScrollBlock(document.querySelector('.articles__items'), document.querySelector('.articles__items').querySelector('.article-item').clientWidth + 30,document.querySelector('.articles-text__arrs').children)
 ScrollBlock(document.querySelector('.articles__items'), document.querySelector('.articles__items').querySelector('.article-item').clientWidth + 19,document.querySelector('.articles-text__arrs-mobile').children)
 
+ScrollBlock(document.querySelector('.brands__items'), document.querySelector('.brands__item').clientWidth + 30,document.querySelector('.brands-text__arrs').children)
+ScrollBlock(document.querySelector('.brands__items'), document.querySelector('.brands__item').clientWidth + 19,document.querySelector('.brands-text__arrs-mobile').children)
+
 document.querySelectorAll('.product-item').forEach(item => ScrollImgs(item))
 
 CatalogButton(document.querySelector('.header__catalog'), document.querySelector('.header-catalog__items'), [document.querySelector('.header__search')])
@@ -37,3 +40,4 @@ HoverBlocks('mouseover', document.querySelectorAll('.promotion__item'), 'promoti
 swipingBlock(document.querySelector('.popular__items'))
 swipingBlock(document.querySelector('.categories__items'))
 swipingBlock(document.querySelector('.articles__items'))
+swipingBlock(document.querySelector('.brands__items'))

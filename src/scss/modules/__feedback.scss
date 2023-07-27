@@ -1,0 +1,35 @@
+.feedback {
+
+  // .feedback__container
+  
+  &__container {}
+  
+  // .feedback__block
+  
+  &__block {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  // .feedback__text
+  
+  &__text {}
+  
+  // .feedback__button
+  
+  &__button {}
+
+  &__block-bg {
+    background: #FED16D;
+  }  
+}
+  .feedback-button {
+  
+  // .feedback-button__svg
+  
+  &__svg {}
+  }
+  

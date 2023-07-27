@@ -299,6 +299,35 @@
     font-size: 13px;
   }
 }
+//BRANDS
+.brands{
+  &__items{
+    gap: 19px;
+    height: 214px;
+  }
+  &__container{
+    align-items: start;
+    flex-direction: column;
+  }
+  &__text{
+    line-height: 1;
+    width: 250px;
+  }
+}
+.brands-text{
+  &__header{
+    font-size: 28px !important;
+  }
+  &__desc{
+    font-size: 13px !important;
+  }
+  &__arrs{
+    display: none !important;
+  }
+  &__arrs-mobile{
+    display: flex !important;
+  }
+}
 }
 
 
@@ -354,5 +383,6 @@
       opacity: 0 !important;
     }
   }
+  
 }
 
