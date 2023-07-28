@@ -11,6 +11,7 @@ import {swipingBlock} from './modules/swipingBlock.js'
 import NoEventsOnScroll from './modules/NoEventsOnScrollBanner.js'
 import serviceBlockHover from './modules/serviceBlockHover.js'
 import withSelectorBlock from './modules/withSelectorBlock.js'
+import callbackForm from './modules/callbackForm.js'
 
 isWebp();
 

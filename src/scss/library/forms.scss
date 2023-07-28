@@ -1,5 +1,111 @@
 //===================================================================================
-
+.callback-form {
+  display: none;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+  & * {
+  transition: all 0.2s ease-in;
+}
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  label {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+  }
+  // .callback-form__form
+  &__form {
+    overflow: hidden;
+    position: relative;
+    top: 100%;
+    align-items: center;
+    border-radius: 20px;
+    padding:40px 20px 40px 20px;
+    justify-content: center;
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    background: white
+  }
+  
+  // .callback-form__header
+  
+  &__header {
+    text-align: center;
+  }
+  
+  // .callback-form__name
+  
+  &__name {
+    width: 100%;
+    padding: 0 80px;
+  }
+  
+  // .callback-form__name-input
+  
+  &__name-input {
+    width: 68%;
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: inline-block;
+    height: 36px;
+    :hover {
+        border-color: #ccc;
+    }
+    :focus{
+        border-color: #9147ff;
+        background: #fff;
+    }
+    
+  }
+  
+  // .callback-form__number
+  
+  &__number {
+    width: 100%;
+    padding: 0 80px;
+    input{
+    width: 68%;
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: inline-block;
+    height: 36px;
+    :hover {
+        border-color: #ccc;
+    }
+    :focus{
+        border-color: #9147ff;
+        background: #fff;
+    }
+  
+    }
+  }
+  
+  // .callback-form__submit
+  
+  &__submit {
+  }
+  }
+  
 //===================================================================================
 
 //===================================================================================
