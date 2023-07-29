@@ -1,5 +1,3 @@
-import {isWebp} from './modules/isWebp.js'
-
 import {ScrollBlock} from './modules/ScrollBlock.js'
 import {ScrollImgs} from './modules/ScrollImgs.js'
 import {CatalogButton} from './modules/CatalogButton.js'
@@ -13,8 +11,6 @@ import serviceBlockHover from './modules/serviceBlockHover.js'
 import withSelectorBlock from './modules/withSelectorBlock.js'
 import callbackForm from './modules/callbackForm.js'
 import ajaxForm from './modules/ajaxForm.js'
-
-isWebp();
 
 ScrollBlock(document.querySelector('.popular__items'), document.querySelector('.popular__item').clientWidth + 30,document.querySelector('.popular-text__arrs').children)
 ScrollBlock(document.querySelector('.popular__items'), document.querySelector('.popular__item').clientWidth + 19,document.querySelector('.popular-text__arrs-mobile').children)
