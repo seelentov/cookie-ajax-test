@@ -1769,15 +1769,14 @@
     </h1>
     <label class='callback-form__name' for="name">
       Имя:
-      <input required class='callback-form__name-input' type="text" id="name" name='name' placeholder="Виталий">
+      <input pattern="^[А-Яа-яЁёA-Za-z\s]+$" required class='callback-form__name-input' type="text" id="name" name='name' placeholder="Виталий">
     </label>
-    <label class='callback-form__number' for="phone">
+    <label class='callback-form__number' for="tel">
       Номер телефона:
-      <input type="tel" id="phone" name="phone"
-        pattern="+7-([0-9]{3})[0-9]{3}-[0-9]{2}-[0-9]{2}"
-        required placeholder="+7(922)984-13-43">
+      <input type="tel" id="tel" name="tel"
+        required pattern="\+?[0-9\s\-\(\)]+" placeholder="+7(922)984-13-43">
     </label>
-    <input onclick="event.preventDefault()"class='callback-form__submit btn' type="submit" value="Отправить"></input>
+    <input class='callback-form__submit btn' type="submit" value="Отправить"></input>
   </form>
 </div>
 </body>

@@ -1563,6 +1563,10 @@ a.popular__item {
   border-color: #9147ff;
   background: #fff;
 }
+._error {
+  box-shadow: 0 0 15px red;
+}
+
 .product-item {
   transition: all 0.2s ease-in;
   flex-direction: column;

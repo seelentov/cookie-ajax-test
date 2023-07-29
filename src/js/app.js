@@ -12,6 +12,7 @@ import NoEventsOnScroll from './modules/NoEventsOnScrollBanner.js'
 import serviceBlockHover from './modules/serviceBlockHover.js'
 import withSelectorBlock from './modules/withSelectorBlock.js'
 import callbackForm from './modules/callbackForm.js'
+import ajaxForm from './modules/ajaxForm.js'
 
 isWebp();
 

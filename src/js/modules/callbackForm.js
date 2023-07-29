@@ -27,23 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   //Уведомление об успешной отправке данных
-  callbackForm.addEventListener('submit', formSend);
-
-  async function formSend(e) {
-    e.preventDefault();
-
-    let formData = new FormData(callbackForm);
-
-    let response = await fetch('mail.php', {
-      method: 'POST',
-      body: formData
-    });
-    if (response.ok){
-      let result = await response.json();
-      form.reset()
-      alert(result.message)
-    }
-  }
 });
 
 
