@@ -50,13 +50,13 @@
         </div>
       </div>
       <div class="footer__logo">
-        <img class="footer-logo__logo" src="@img/logo_white.svg" alt="logo">
+        <img class="footer-logo__logo" src="/img/logo_white.svg" alt="logo">
         <div class="footer-logo__phone">
-          <img class='footer-logo__phone-arrow-icon' src="@img/phone.svg">
+          <img class='footer-logo__phone-arrow-icon' src="/img/phone.svg">
           <div class="footer-logo__phone-block text-min">
             <div class="phone-block__phone">
               <a href="tel:+74951295372">+7 495 129–53–72</a>
-              <img class='footer-logo__phone-arrow-icon' src="@img/arrowdown-icon.svg">
+              <img class='footer-logo__phone-arrow-icon' src="/img/arrowdown-icon.svg">
             </div>
             <div class="footer-logo__time text-min">
               Пн-Пт: 9:30 — 18:00
@@ -79,7 +79,7 @@
     <div class="footer__middle">
       <div class="footer__adresses">
         <div class="footer-adresses__adress footer-adresses__mail-adress">
-          <img class='footer-adresses__icon' src="@img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Почтовые адреса
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="footer-adresses__adress footer-adresses__realtime-adress">
-          <img class='footer-adresses__icon' src="@img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Фактический адрес
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="footer-adresses__adress footer-adresses__office">
-          <img class='footer-adresses__icon' src="@img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Офис
@@ -112,7 +112,7 @@
           </div>
         </div>
         <div class="footer-adresses__adress footer-adresses__realtime-warehouse text-min">
-          <img class='footer-adresses__icon' src="@img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Склад
@@ -167,11 +167,11 @@
         </a>
       </div>
       <div class="footer__payments">
-        <img class="footer-payments__icon footer-payments__icon-1" src="@img/alfa.svg">
-        <img class="footer-payments__icon footer-payments__icon-2" src="@img/sb.svg">
-        <img class="footer-payments__icon footer-payments__icon-3" src="@img/qiwi 1.svg">
-        <img class="footer-payments__icon footer-payments__icon-4" src="@img/visa.svg">
-        <img class="footer-payments__icon footer-payments__icon-5" src="@img/mc.svg">
+        <img class="footer-payments__icon footer-payments__icon-1" src="/img/alfa.svg">
+        <img class="footer-payments__icon footer-payments__icon-2" src="/img/sb.svg">
+        <img class="footer-payments__icon footer-payments__icon-3" src="/img/qiwi 1.svg">
+        <img class="footer-payments__icon footer-payments__icon-4" src="/img/visa.svg">
+        <img class="footer-payments__icon footer-payments__icon-5" src="/img/mc.svg">
       </div>
     </div>
   </div>

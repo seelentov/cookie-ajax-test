@@ -1,4 +1,4 @@
-<section class="categories">
+<div class="categories">
   <div class="categories__container">
     <div class="categories__text">
       <h2 class="categories-text__header text-big">
@@ -9,10 +9,10 @@
       </div>
       <div class="categories-text__arrs btn-arrs">
         <div class="categories-arrs__left btn-arr">
-          <img src="@img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="categories-arrs__right btn-arr">
-          <img src="@img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@
         <a href="">
           <article class="categories__category catalog-item">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -30,7 +30,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -40,7 +40,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -50,7 +50,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -60,7 +60,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -70,7 +70,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -80,7 +80,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -90,7 +90,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -100,7 +100,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -110,7 +110,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -120,7 +120,7 @@
         <a href="">
           <article class="categories__category catalog-item">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -130,7 +130,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -140,7 +140,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -150,7 +150,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -160,7 +160,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -170,7 +170,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -180,7 +180,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -190,7 +190,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -200,7 +200,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -210,7 +210,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="@img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -220,11 +220,11 @@
       </div>
       <div class="categories-text__arrs-mobile btn-arrs" style="display:none;">
         <div class="categories-arrs-mobile__left btn-arr">
-          <img src="@img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="categories-arrs-mobile__right btn-arr">
-          <img src="@img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
   </div>
-</section>
+</div>

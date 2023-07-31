@@ -1,7 +1,7 @@
 {
-  "name": "seelentov-gulp-webdev",
+  "name": "seelentov-gulp-webdev-n-php",
   "version": "1.0.0",
-  "description": "My own gulp for web-dev",
+  "description": "My own gulp for web-dev, and php files",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
@@ -14,7 +14,8 @@
   "author": "seelentov",
   "license": "ISC",
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "browser-sync": "latest",
@@ -50,7 +51,6 @@
     "gulp-zip": "^5.1.0",
     "mocha": "^10.2.0",
     "sass": "^1.62.1",
-    "swiper": "^10.0.4",
     "vinyl-ftp": "^0.6.1",
     "webp-converter": "2.2.3",
     "webpack": "^5.85.0",

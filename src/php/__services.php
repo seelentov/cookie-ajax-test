@@ -1,4 +1,4 @@
-<section class="services">
+<div class="services">
   <div class="services__container container">
     <h2 class="services__header text-big">Наши услуги</h2>
     <div class="services__items">
@@ -9,7 +9,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -28,7 +28,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -47,7 +47,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -66,7 +66,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -85,7 +85,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -104,7 +104,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -123,7 +123,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="@img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -137,4 +137,4 @@
       </article></a>
     </div>
   </div>
-</section>
+</div>

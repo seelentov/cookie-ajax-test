@@ -1,5 +1,5 @@
 export const ScrollBlock = (block, scrollWidth, arrsBlock) => {
-  if (block.scrollWidth>block.offsetWidth){
+  
   const updateArrows = () => {
     if (block.scrollLeft < 50) {
       arrsBlock[0].style.transform = 'scale(0)';
@@ -32,9 +32,5 @@ export const ScrollBlock = (block, scrollWidth, arrsBlock) => {
     });
     arrsBlock[0].style.transform = 'scale(1)';
   });
-}
-else{
-  [...arrsBlock].forEach(e => e.style.display = 'none')
-  };
 }
 ;

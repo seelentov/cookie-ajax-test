@@ -1,0 +1,26 @@
+{
+  "item-1": {
+    "img":"/img/promotion_banners/banner-image-3.svg",
+    "header": "Быстрая поставка",
+    "src":"#",
+    "bgColor":"#FED16D"
+  },
+  "item-2": {
+    "img":"/img/promotion_banners/banner-image-2.png",
+    "header": "Светящиеся шары",
+    "src":"#",
+    "bgColor":"white"
+  },
+  "item-3": {
+    "img":"/img/promotion_banners/banner-image-3.svg",
+    "header": "Детские подарки",
+    "src":"#",
+    "bgColor":"white"
+  },
+  "item-4": {
+    "img":"/img/promotion_banners/banner-image-3.svg",
+    "header": "Ежедневники на 2023 год",
+    "src":"#",
+    "bgColor":"#74499B"
+  }
+}

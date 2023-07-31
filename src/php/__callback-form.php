@@ -14,4 +14,22 @@
     </label>
     <input class='callback-form__submit btn' type="submit" value="Отправить"></input>
   </form>
+  <div class='callback-form__sending-animation'>
+    Отправка...
+    <div class="sending-animation__bar">
+    <div class="sending-animation__line"></div>
+    </div>
+  </div>
+  <div class='callback-form__ok-animation'>
+    Форма успешно отправлена
+    <div class="sending-animation__bar">
+    <div class="sending-animation__line" style="width: 100%; animation: none"></div>
+    </div>
+  </div>
+  <div class='callback-form__error-animation'>
+    Ошибка!
+    <div class="sending-animation__bar">
+    <div class="sending-animation__line" style="width: 100%; background: red; ; animation: none"></div>
+    </div>
+  </div>
 </div>

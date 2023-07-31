@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE php>
+<php lang="ru">
   <head>
-	<title>Главная</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-  <header class="header">
+<script src='/js/xhr.min.js'></script>
+  
+  <body>
+    <header class="header">
   <div class="header__container container">
     <div class="header__top">
       <nav class="header__nav">
@@ -33,7 +35,7 @@
             <div class="phone__number-number"><a href="tel:+73512420306">+7 351 242-03-06</a></div>
           </div>
         </div>
-          <img src='img/arrowdown-icon.svg' class="phone__number-more">
+          <img src='/img/arrowdown-icon.svg' class="phone__number-more">
         </div>
         <button class="phone__call">
           Заказать звонок
@@ -42,20 +44,20 @@
     </div>
     <div class="header__bottom">
       <div class="header__logo">
-        <img class='logo_img'src="img/logo.svg" alt="Yoliba">
+        <img class='logo_img'src="/img/logo.svg" alt="Yoliba">
         Минимальный заказ от <br>
         <strong>15000 ₽</strong>
       </div>
       <div class="header__catalog-div">
       <button class="header__catalog">
-        <img class='catalog__icon' src="img/catalog-icon.svg">
+        <img class='catalog__icon' src="/img/catalog-icon.svg">
         <span>Каталог</span>
       </button>
         <div class="header-catalog__items">
           <a href="">
             <article class="categories__category catalog-item header-catalog__item">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -65,7 +67,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -75,7 +77,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -85,7 +87,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -95,7 +97,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -105,7 +107,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -115,7 +117,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -125,7 +127,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -135,7 +137,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -145,7 +147,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -155,7 +157,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -165,7 +167,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -175,7 +177,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -185,7 +187,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -195,7 +197,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -205,7 +207,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -215,7 +217,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -225,7 +227,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -235,7 +237,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -245,7 +247,7 @@
           <a href="">
             <article class="categories__category catalog-item header-catalog__item ">
               <div class="category__img">
-                <img src="img/catalog__logos/eklektika_primo.svg">
+                <img src="/img/catalog__logos/eklektika_primo.svg">
               </div>
               <div class="categoty__name">
                 Eklektika primo
@@ -257,29 +259,29 @@
 
       <div class="header__search">
         <input type="text" class="search__input" placeholder="Поиск..">
-      <img class='search__icon' src="img/search.svg" alt="">
+      <img class='search__icon' src="/img/search.svg" alt="">
       </div>
       <div class="header__menu">
         <a href='' class="menu__item menu__calculation">
-          <img class="menu__item-ico calculation__logo" src ='img/calculate-icon.svg'>
+          <img class="menu__item-ico calculation__logo" src ='/img/calculate-icon.svg'>
           <div class="menu__item-text calculation__text">
             Запросить расчет
           </div>
         </a>
         <a href='' class="menu__item menu__wishlist">
-          <img class="menu__item-ico wishlist__logo" src ='img/wishlist-icon.svg'>
+          <img class="menu__item-ico wishlist__logo" src ='/img/wishlist-icon.svg'>
           <div class="menu__item-text wishlist__text">
             Избранное
           </div>
         </a>
         <a href='' class="menu__item menu__basket">
-          <img class="menu__item-ico basket__logo" src ='img/basket-icon.svg'>
+          <img class="menu__item-ico basket__logo" src ='/img/basket-icon.svg'>
           <div class="menu__item-text basket__text">
             Корзина
           </div>
         </a>
         <a href='' class="menu__item menu__profile">
-          <img class="menu__item-ico profile__logo" src ='img/profile-icon.svg'>
+          <img class="menu__item-ico profile__logo" src ='/img/profile-icon.svg'>
           <div cla ss="menu__item-text profile__text">
             Личный кабинет
           </div>
@@ -296,7 +298,7 @@
     <div class="header-mobil__top">
       
       <div class="header-mobile__logo">
-        <img class='logo_img'src="img/logo.svg" alt="Yoliba">
+        <img class='logo_img'src="/img/logo.svg" alt="Yoliba">
       </div>
       <div class="header__menu-burger">
         <div class="menu-burger__line"></div>
@@ -307,7 +309,7 @@
     
     <div class="header__search-mobile header__search">
       <input type="text" class="search__input-mobile search__input " placeholder="Поиск..">
-    <img class='search__input-mobile search__icon search__icon-mobile' src="img/search.svg" alt="">
+    <img class='search__input-mobile search__icon search__icon-mobile' src="/img/search.svg" alt="">
     </div>
     <div class="header-mobile__text header__logo">
       Минимальный заказ от <br>
@@ -317,7 +319,7 @@
   <div class="menu-burger">
     <div class="menu-burger__top">
       <div class="menu-burger__logo">
-        <img class='logo_img'src="img/logo.svg" alt="Yoliba">
+        <img class='logo_img'src="/img/logo.svg" alt="Yoliba">
       </div>
       <div class="menu-burger__close-button">
         <button>
@@ -348,87 +350,45 @@
   </div>
     </div>
 </header>
-<div class="wrapper">
-<main>
-  <section class="banner">
+    <div class="wrapper">
+      <main>
+        <section class='home__banner'>
+          <div class="banner">
   <div class="banners__bg">
-    <div class="banner__bg" index="0"></div>
-    <div class="banner__bg" index="1"></div>
-    <div class="banner__bg" index="2"></div>
+    <!-- Баннеры -->
   </div>
     <div class="banner__container container">
       <div class="banner__items">
         <div class="banner-items__quad banner__quad">
-          <div class="banner__text">
-            <div class="banner-text__top text-min">
-              НОВИНКИ
-            </div>
-            <div class="banner-text__header text-big">
-              Подарочные наборы
-            </div>
-            <div class="banner-text__desc">
-              Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
-            </div>
-            <button class="banner-text__btn btn">
-              Запросить расчет
-              <img src="img/icon-arrow-right.svg" alt="">
-            </button>
-          </div>
-          <div class="banner__text disabled">
-            <div class="banner-text__top text-min">
-              АКЦИЯ
-            </div>
-            <div class="banner-text__header text-big">
-              Два по цене одного
-            </div>
-            <div class="banner-text__desc">
-              Подходит для продукции из натуральной, эко-кожи, картона.
-            </div>
-            <button class="banner-text__btn btn">
-              Подробнее
-              <img src="img/icon-arrow-right.svg" alt="">
-            </button>
-          </div>
-          <div class="banner__text disabled">
-            <div class="banner-text__top text-min">
-              ЛУЧШЕЕ
-            </div>
-            <div class="banner-text__header text-big">
-              Авторские товары
-            </div>
-            <div class="banner-text__desc">
-              Лучшее от лучших для лучших
-            </div>
-            <button class="banner-text__btn btn">
-              Посмотреть
-              <img src="img/icon-arrow-right.svg" alt="">
-            </button>
-          </div>
+          <!-- Текст баннеров -->
         </div>
         <div class="banner-items__quad"></div>
         <div class="banner__arrs btn-arrs">
           <div class="banner-arrs__left btn-arr">
-            <img src="img/icon-redarr.svg" alt="<">
+            <img src="/img/icon-redarr.svg" alt="<">
           </div>
           <div class="banner-arrs__right btn-arr">
-            <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+            <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
           </div>
         </div>
       </div>
     </div>
-
-</section>
-  <div class="moving-text">
+</div>
+        </section>
+        <section class='home__moving-text'>
+          <div class="moving-text">
   <div class="moving-text__top moving-text__line">
-    <img src="img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
-    <img src="img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
+    <img src="/img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
+    <img src="/img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
   </div>
   <div class="moving-text__bottom moving-text__line">
-    <img src="img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
-    <img src="img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
+    <img src="/img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
+    <img src="/img/moving-text.png" alt="Корпоративный мерч Сувенирная продукция Бизнес-подарки Корпоративный мерч">
   </div>
 </div>
-  <section class="promotion">
+        </section>
+        <section class='home__promotion'>
+          <div class="promotion">
   <div class="promotion__container container">
     <article class="promotion__item promotion-item-small" style="background:#FED16D">
       <div class="promotion-item__text" style='color:inherit'>
@@ -439,7 +399,7 @@
           Быстрая поставка
         </div>
         <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
-          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
         </button>
       </div>
       <div class="promotion-item__img">
@@ -455,11 +415,11 @@
           Светящиеся шары
         </div>
         <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
-          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
         </button>
       </div>
       <div class="promotion-item__img">
-        <img src="img/promotion_banners/banner-image-2.png" alt="">
+        <img src="/img/promotion_banners/banner-image-2.png" alt="">
       </div>
     </article>
     <article class="promotion__item promotion-item-small" style="background:inherit">
@@ -471,12 +431,12 @@
           Детские подарки
         </div>
         <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
-          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
         </button>
       </div>
       <div class="promotion-item__img img-scroll-inf">
-        <img src="img/promotion_banners/banner-image-3.svg" alt="">
-        <img src="img/promotion_banners/banner-image-3.svg" alt="">
+        <img src="/img/promotion_banners/banner-image-3.svg" alt="">
+        <img src="/img/promotion_banners/banner-image-3.svg" alt="">
       </div>
     </article>
     <article class="promotion__item promotion-item-small" style="background:#74499B">
@@ -488,7 +448,7 @@
           Ежедневники на 2023 год
         </div>
         <button onclick="window.location.href = '#'" class="promotion-item__btn btn">
-          <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+          <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
         </button>
       </div>
       <div class="promotion-item__img">
@@ -496,8 +456,10 @@
       </div>
     </article>
   </div>
-</section>
-  <section class="categories">
+</div>
+        </section>
+        <section class='home__categories'>
+          <div class="categories">
   <div class="categories__container">
     <div class="categories__text">
       <h2 class="categories-text__header text-big">
@@ -508,10 +470,10 @@
       </div>
       <div class="categories-text__arrs btn-arrs">
         <div class="categories-arrs__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="categories-arrs__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
     </div>
@@ -519,7 +481,7 @@
         <a href="">
           <article class="categories__category catalog-item">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -529,7 +491,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -539,7 +501,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -549,7 +511,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -559,7 +521,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -569,7 +531,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -579,7 +541,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -589,7 +551,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -599,7 +561,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -609,7 +571,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -619,7 +581,7 @@
         <a href="">
           <article class="categories__category catalog-item">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -629,7 +591,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -639,7 +601,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -649,7 +611,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -659,7 +621,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -669,7 +631,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -679,7 +641,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -689,7 +651,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -699,7 +661,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -709,7 +671,7 @@
         <a href="">
           <article class="categories__category catalog-item ">
             <div class="category__img">
-              <img src="img/catalog__logos/eklektika_primo.svg">
+              <img src="/img/catalog__logos/eklektika_primo.svg">
             </div>
             <div class="categoty__name">
               Eklektika primo
@@ -719,15 +681,17 @@
       </div>
       <div class="categories-text__arrs-mobile btn-arrs" style="display:none;">
         <div class="categories-arrs-mobile__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="categories-arrs-mobile__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
   </div>
-</section>
-  <section class="popular">
+</div>
+        </section>
+        <section class='home__popular'>
+          <div class="popular">
   <div class="popular__container">
     <div class="popular__text">
       <h2 class="popular-text__header text-big">
@@ -735,443 +699,32 @@
       </h2>
       <div class="popular-text__desc">
         Подходит для продукции из натуральной, эко-кожи, дерева, бумаги, картона.
-            </div>
+      </div>
       <div class="popular-text__arrs btn-arrs">
         <div class="popular-arrs__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="popular-arrs__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
     </div>
-      <div class="popular__items">
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-          <article class="popular__item product-item">
-            <a class='popular__item' href="">
-            <div class="product-item__promo">
-              новинка
-            </div>
-            <div class="product-item__img">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-              <img class='product-img__image'src="img/products__imgs/product-1.png" alt="product-1">
-            </div>
-            <div class='product-img__points'>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-              <div class="points__hover"><div class="points__item"></div></div>
-            </div>
-            <div class="product-item__name">
-            <p>              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-              Записная книжка (бренд InFolio) коллекция «Lifestyle», формат A5, переплёт твёрдый с резинкой, цвет малиновый
-            </p>
-            </div>
-            <div class="product-item__cost">
-              <div class="product-item__price">328 ₽</div>
-              <div class="product-item__oldprice">16 300 ₽</div>
-            </div>
-          </a>
-            <div class="product-item__buybutton">
-              <svg width="25" height="26" viewBox="0 0 25 26" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.45599 5.38574L3.51107 1.13574H0.77832" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.95222 17.0166L4.45605 5.38574H22.3882C23.2906 5.38574 23.9621 6.21733 23.7737 7.09991L21.6459 17.0166C21.5056 17.6697 20.9291 18.1357 20.2604 18.1357H8.33631C7.66906 18.1357 7.09247 17.6697 6.95222 17.0166Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8.54602 23.2715C8.25277 23.2715 8.01477 23.5095 8.0176 23.8027C8.01619 24.096 8.25419 24.334 8.54744 24.334C8.84069 24.334 9.07869 24.096 9.07869 23.8027C9.07869 23.5095 8.84069 23.2715 8.54602 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M20.7391 23.2715C20.4459 23.2715 20.2079 23.5095 20.2107 23.8027C20.2093 24.096 20.4473 24.334 20.7406 24.334C21.0338 24.334 21.2718 24.096 21.2718 23.8027C21.2718 23.5095 21.0338 23.2715 20.7391 23.2715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </div>
-          </article>
-        
+    <div class="popular__items">
+      <!-- Популярное -->
+    </div>
+    <div class="popular-text__arrs-mobile btn-arrs" style="display:none;">
+      <div class="popular-arrs-mobile__left btn-arr">
+        <img src="/img/icon-redarr.svg" alt="<">
       </div>
-      <div class="popular-text__arrs-mobile btn-arrs" style="display:none;">
-        <div class="popular-arrs-mobile__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
-        </div>
-        <div class="popular-arrs-mobile__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
-        </div>
+      <div class="popular-arrs-mobile__right btn-arr">
+        <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
       </div>
+    </div>
   </div>
-</section>
-
-
-
-  <section class="services">
+</div>
+        </section>
+        <section class='home__services'>
+          <div class="services">
   <div class="services__container container">
     <h2 class="services__header text-big">Наши услуги</h2>
     <div class="services__items">
@@ -1182,7 +735,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1201,7 +754,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1220,7 +773,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1239,7 +792,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1258,7 +811,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1277,7 +830,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1296,7 +849,7 @@
           </svg>
         <div class="service-item__hover">
           <div class="service-item__img">
-            <img src="img/service-1.png">
+            <img src="/img/service-1.png">
           </div>
           <div class="service-item__desc">
           <div class="service-item__price">
@@ -1310,8 +863,10 @@
       </article></a>
     </div>
   </div>
-</section>
-  <section class="articles">
+</div>
+        </section>
+        <section class='home__articles'>
+          <div class="articles">
   <div class="articles__container">
     <div class="articles__text">
       <h2 class="articles-text__header text-big">
@@ -1322,10 +877,10 @@
       </div>
       <div class="articles-text__arrs btn-arrs">
         <div class="articles-arrs__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="articles-arrs__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
     </div>
@@ -1333,7 +888,7 @@
         <a href="">
           <article class="articles__item article-item">
             <div class="article-item__img">
-              <img src="img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
+              <img src="/img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
             </div>
             <div class="article-item__data text-min">
               08 апреля 2022
@@ -1346,7 +901,7 @@
         <a href="">
           <article class="articles__item article-item">
             <div class="article-item__img">
-              <img src="img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
+              <img src="/img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
             </div>
             <div class="article-item__data text-min">
               08 апреля 2022
@@ -1359,7 +914,7 @@
         <a href="">
           <article class="articles__item article-item">
             <div class="article-item__img">
-              <img src="img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
+              <img src="/img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
             </div>
             <div class="article-item__data text-min">
               08 апреля 2022
@@ -1372,7 +927,7 @@
         <a href="">
           <article class="articles__item article-item">
             <div class="article-item__img">
-              <img src="img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
+              <img src="/img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
             </div>
             <div class="article-item__data text-min">
               08 апреля 2022
@@ -1385,7 +940,7 @@
         <a href="">
           <article class="articles__item article-item">
             <div class="article-item__img">
-              <img src="img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
+              <img src="/img/article_thumbnales/article_1.jpg" alt="article_1.jpg">
             </div>
             <div class="article-item__data text-min">
               08 апреля 2022
@@ -1398,7 +953,7 @@
         <a href="">
           <article class="articles__item article-item">
             <div class="article-item__img">
-              <img src="img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
+              <img src="/img/article_thumbnales/article_2.jpg" alt="article_1.jpg">
             </div>
             <div class="article-item__data text-min">
               08 апреля 2022
@@ -1411,15 +966,17 @@
       </div>
       <div class="articles-text__arrs-mobile btn-arrs" style="display:none;">
         <div class="articles-arrs-mobile__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="articles-arrs-mobile__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
   </div>
-</section>
-  <section class="events">
+</div>
+        </section>
+        <section class='home__events'>
+          <div class="events">
   <div class="events__container container">
     <div class="events__selector">
       <div class="events-selector__item events-selector__item__active" index="0">
@@ -1436,7 +993,7 @@
       </div>
     </div>
     <div class="events__banners">
-      <article class="events-banner__item" index="0" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+      <article class="events-banner__item" index="0" style="background: url(/img/event_banners/event-banner-1.png) 0 0 no-repeat">
         <div class="events-banner__content">
           <div class="events-banner__header text-big">
             Корпоративные подарки и сувениры от компании «Эклектика»
@@ -1446,11 +1003,11 @@
 Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
           </p></div>
           <button class="events-banner__btn btn">
-            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+            <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
           </button>
         </div>
       </article>
-      <article class="events-banner__item" index="1" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+      <article class="events-banner__item" index="1" style="background: url(/img/event_banners/event-banner-1.png) 0 0 no-repeat">
         <div class="events-banner__content">
           <div class="events-banner__header text-big">
             Корпоративные подарки и сувениры от компании «Эклектика»
@@ -1460,11 +1017,11 @@
 Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
           </p></div>
           <button class="events-banner__btn btn">
-            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+            <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
           </button>
         </div>
       </article>
-      <article class="events-banner__item" index="2" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+      <article class="events-banner__item" index="2" style="background: url(/img/event_banners/event-banner-1.png) 0 0 no-repeat">
         <div class="events-banner__content">
           <div class="events-banner__header text-big">
             Корпоративные подарки и сувениры от компании «Эклектика»
@@ -1474,11 +1031,11 @@
 Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
           </p></div>
           <button class="events-banner__btn btn">
-            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+            <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
           </button>
         </div>
       </article>
-      <article class="events-banner__item" index="3" style="background: url(img/event_banners/event-banner-1.png) 0 0 no-repeat">
+      <article class="events-banner__item" index="3" style="background: url(/img/event_banners/event-banner-1.png) 0 0 no-repeat">
         <div class="events-banner__content">
           <div class="events-banner__header text-big">
             Корпоративные подарки и сувениры от компании «Эклектика»
@@ -1488,14 +1045,16 @@
 Компания «Эклектика» осуществляет продажу сувениров с нанесением логотипа в Москве и по всей России.
           </p></div>
           <button class="events-banner__btn btn">
-            <img src="img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
+            <img src="/img/icon-arrow-right.svg" alt="" style="transform: rotate(180deg);object-fit: none;height: 100%;">
           </button>
         </div>
       </article>
     </div>
   </div>
-</section>
-  <section class="brands">
+</div>
+        </section>
+        <section class='home__brands'>
+          <div class="brands">
   <div class="brands__container">
     <div class="brands__text">
       <h2 class="brands-text__header text-big">
@@ -1506,84 +1065,44 @@
       </div>
       <div class="brands-text__arrs btn-arrs">
         <div class="brands-arrs__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="brands-arrs__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
     </div>
     <div class="brands__items">
-      
-          <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
-        <article class="brands__item brands-item">
-          <img src="img/brands/brand-1.png" alt="brand-1">
-        </article>
+      <!-- Бренды -->
       </div>
       <div class="brands-text__arrs-mobile btn-arrs" style="display:none;">
         <div class="brands-arrs-mobile__left btn-arr">
-          <img src="img/icon-redarr.svg" alt="<">
+          <img src="/img/icon-redarr.svg" alt="<">
         </div>
         <div class="brands-arrs-mobile__right btn-arr">
-          <img src="img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
+          <img src="/img/icon-redarr.svg" style="transform: rotate(180deg);" alt=">">
         </div>
       </div>
   </div>
-</section>
-  <section class="feedback">
+</div>
+        </section>
+        <section class='home__feedback'>
+          <div class="feedback">
   <div class="feedback__container container">
       <div class="feedback__block">
         <div class="feedback__text text-big">
           Оставьте заявку и с вами<br>свяжутся в течение пары минут
         </div>
         <div class="feedback__button">
-          <img src="img/arrow-up-right.svg" class="feedback-button__svg">
+          <img src="/img/arrow-up-right.svg" class="feedback-button__svg">
         </div>
       </div>
   </div>
-</section>
-  
-</main>
 </div>
-  <footer class="footer">
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
   <div class="footer__container container">
     <div class="footer__top">
       <div class="footer__links">
@@ -1635,13 +1154,13 @@
         </div>
       </div>
       <div class="footer__logo">
-        <img class="footer-logo__logo" src="img/logo_white.svg" alt="logo">
+        <img class="footer-logo__logo" src="/img/logo_white.svg" alt="logo">
         <div class="footer-logo__phone">
-          <img class='footer-logo__phone-arrow-icon' src="img/phone.svg">
+          <img class='footer-logo__phone-arrow-icon' src="/img/phone.svg">
           <div class="footer-logo__phone-block text-min">
             <div class="phone-block__phone">
               <a href="tel:+74951295372">+7 495 129–53–72</a>
-              <img class='footer-logo__phone-arrow-icon' src="img/arrowdown-icon.svg">
+              <img class='footer-logo__phone-arrow-icon' src="/img/arrowdown-icon.svg">
             </div>
             <div class="footer-logo__time text-min">
               Пн-Пт: 9:30 — 18:00
@@ -1664,7 +1183,7 @@
     <div class="footer__middle">
       <div class="footer__adresses">
         <div class="footer-adresses__adress footer-adresses__mail-adress">
-          <img class='footer-adresses__icon' src="img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Почтовые адреса
@@ -1675,7 +1194,7 @@
           </div>
         </div>
         <div class="footer-adresses__adress footer-adresses__realtime-adress">
-          <img class='footer-adresses__icon' src="img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Фактический адрес
@@ -1686,7 +1205,7 @@
           </div>
         </div>
         <div class="footer-adresses__adress footer-adresses__office">
-          <img class='footer-adresses__icon' src="img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Офис
@@ -1697,7 +1216,7 @@
           </div>
         </div>
         <div class="footer-adresses__adress footer-adresses__realtime-warehouse text-min">
-          <img class='footer-adresses__icon' src="img/adress.svg" alt="">
+          <img class='footer-adresses__icon' src="/img/adress.svg" alt="">
           <div class="footer-adresses__content">
             <div class="footer-adresses__content-header text-min">
               Склад
@@ -1752,17 +1271,18 @@
         </a>
       </div>
       <div class="footer__payments">
-        <img class="footer-payments__icon footer-payments__icon-1" src="img/alfa.svg">
-        <img class="footer-payments__icon footer-payments__icon-2" src="img/sb.svg">
-        <img class="footer-payments__icon footer-payments__icon-3" src="img/qiwi 1.svg">
-        <img class="footer-payments__icon footer-payments__icon-4" src="img/visa.svg">
-        <img class="footer-payments__icon footer-payments__icon-5" src="img/mc.svg">
+        <img class="footer-payments__icon footer-payments__icon-1" src="/img/alfa.svg">
+        <img class="footer-payments__icon footer-payments__icon-2" src="/img/sb.svg">
+        <img class="footer-payments__icon footer-payments__icon-3" src="/img/qiwi 1.svg">
+        <img class="footer-payments__icon footer-payments__icon-4" src="/img/visa.svg">
+        <img class="footer-payments__icon footer-payments__icon-5" src="/img/mc.svg">
       </div>
     </div>
   </div>
 </footer>
-  <script src='js/app.min.js'></script>
-  <div class="callback-form">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src='/js/app.min.js'></script>
+    <div class="callback-form">
   <form class='callback-form__form' action="#">
     <h1 class="callback-form__header text-big">
       Оставьте заявку и с вами свяжутся в течение пары минут
@@ -1778,6 +1298,24 @@
     </label>
     <input class='callback-form__submit btn' type="submit" value="Отправить"></input>
   </form>
+  <div class='callback-form__sending-animation'>
+    Отправка...
+    <div class="sending-animation__bar">
+    <div class="sending-animation__line"></div>
+    </div>
+  </div>
+  <div class='callback-form__ok-animation'>
+    Форма успешно отправлена
+    <div class="sending-animation__bar">
+    <div class="sending-animation__line" style="width: 100%; animation: none"></div>
+    </div>
+  </div>
+  <div class='callback-form__error-animation'>
+    Ошибка!
+    <div class="sending-animation__bar">
+    <div class="sending-animation__line" style="width: 100%; background: red; ; animation: none"></div>
+    </div>
+  </div>
 </div>
-</body>
-</html>
+  </body>
+</php>

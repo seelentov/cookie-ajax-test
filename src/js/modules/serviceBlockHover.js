@@ -7,7 +7,6 @@ serviceItems.forEach(e => {
   e.addEventListener('mousemove', (event) => {
     let mouseX = event.pageX + 'px';
     let mouseY = event.pageY + 'px';
-    console.log(mouseX,mouseY)
     descBlock.style.left = mouseX
     descBlock.style.top = mouseY
   });

@@ -14,7 +14,7 @@ block.addEventListener('mousemove', (e) => {
   if (!isScrolling) return;
   e.preventDefault();
   const x = e.pageX - block.offsetLeft;
-  const walk = (x - startX) * speed; // увеличьте множитель, чтобы увеличить скорость прокрутки
+  const walk = (x - startX) * speed;
   block.scrollLeft = scrollLeft - walk;
 });
 

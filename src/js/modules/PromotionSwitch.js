@@ -1,4 +1,4 @@
-const promotionItems = document.querySelectorAll('.promotion__item')
+export const promotionItems = document.querySelectorAll('.promotion__item')
 
 promotionItems.forEach(e => {
   e.addEventListener('mouseover', ()=>{
